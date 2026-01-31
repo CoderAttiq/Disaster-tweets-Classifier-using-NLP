@@ -11,6 +11,7 @@ The dataset consists of tweets labeled as disaster (1) or non-disaster (0), incl
 - Feature engineering: Bag-of-Words, TF-IDF (unigrams + bigrams), Word2Vec embeddings
 - Models: Multinomial Naïve Bayes, Logistic Regression
 - Evaluation: Accuracy, Precision, Recall, F1-score
+- Deployement using the Gradio UI for the test purpose
 
 ## Results
 Logistic Regression with TF-IDF features achieved the best overall performance, providing a strong balance between recall and precision.
